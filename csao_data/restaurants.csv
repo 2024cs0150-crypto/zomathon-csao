@@ -1,0 +1,501 @@
+restaurant_id,city,cuisine_type,price_range,rating,order_volume,is_chain,peak_hour_multiplier,restaurant_popularity_rank
+1,Hyderabad,Biryani,1,3.8,100,False,1.28,429
+2,Delhi,Desserts,2,2.8,310,True,1.57,254
+3,Delhi,North Indian,1,3.6,8446,True,1.92,7
+4,Delhi,Chinese,2,4.5,622,True,1.56,145
+5,Bengaluru,Desserts,1,4.4,146,False,1.49,365
+6,Pune,Chinese,1,4.0,81,False,1.15,456
+7,Mumbai,Fast Food,2,4.1,394,False,1.01,220
+8,Hyderabad,Chinese,1,3.6,126,False,1.26,396
+9,Delhi,North Indian,1,3.1,201,False,1.44,321
+10,Hyderabad,Biryani,2,4.4,615,False,1.15,150
+11,Delhi,Fast Food,3,2.9,288,False,1.04,267
+12,Delhi,North Indian,1,4.3,303,False,1.14,262
+13,Pune,North Indian,2,5.0,56,False,1.25,487
+14,Mumbai,Fast Food,1,3.4,2643,True,1.91,32
+15,Hyderabad,North Indian,2,4.0,166,False,1.25,353
+16,Hyderabad,South Indian,2,3.6,139,False,1.4,374
+17,Mumbai,Biryani,2,3.4,4215,True,1.77,18
+18,Pune,North Indian,1,3.2,3329,False,1.11,26
+19,Delhi,Biryani,3,3.6,123,False,1.15,399
+20,Delhi,North Indian,1,4.3,240,False,1.14,294
+21,Delhi,Chinese,2,4.1,4619,True,1.5,17
+22,Hyderabad,Chinese,2,3.6,219,False,1.5,310
+23,Hyderabad,Chinese,3,4.4,103,False,1.33,423
+24,Delhi,North Indian,2,4.1,622,True,1.96,145
+25,Bengaluru,Fast Food,2,4.6,609,False,1.46,152
+26,Delhi,North Indian,3,4.6,1469,True,1.63,56
+27,Delhi,North Indian,1,3.8,967,False,1.29,89
+28,Chennai,Chinese,2,4.5,52,False,1.09,496
+29,Mumbai,Fast Food,2,3.7,179,False,1.1,338
+30,Bengaluru,Chinese,1,3.5,726,False,1.16,121
+31,Mumbai,South Indian,3,3.9,238,False,1.3,296
+32,Bengaluru,Biryani,3,4.1,107,False,1.46,420
+33,Chennai,Chinese,2,4.0,98,False,1.36,433
+34,Delhi,North Indian,1,3.9,634,False,1.27,141
+35,Delhi,North Indian,2,4.2,302,True,1.69,263
+36,Hyderabad,South Indian,1,3.2,307,True,1.62,259
+37,Bengaluru,Chinese,1,4.4,326,False,1.16,241
+38,Pune,North Indian,3,4.2,123,True,1.49,399
+39,Bengaluru,South Indian,1,4.0,794,False,1.41,112
+40,Delhi,North Indian,1,5.0,162,False,1.48,357
+41,Bengaluru,Biryani,2,4.0,226,False,1.22,299
+42,Delhi,North Indian,1,3.3,7803,True,1.53,10
+43,Chennai,Biryani,1,2.4,3599,False,1.42,25
+44,Chennai,Biryani,2,4.6,381,False,1.27,223
+45,Mumbai,Biryani,1,3.7,186,False,1.2,332
+46,Pune,Fast Food,1,4.2,70,False,1.3,468
+47,Pune,North Indian,2,4.8,1063,False,1.05,81
+48,Bengaluru,North Indian,2,4.7,306,False,1.41,260
+49,Bengaluru,Fast Food,1,4.0,215,False,1.35,314
+50,Chennai,North Indian,1,4.3,627,False,1.39,143
+51,Chennai,South Indian,1,3.7,89,True,1.84,446
+52,Mumbai,Biryani,2,4.2,1132,True,1.66,73
+53,Delhi,South Indian,1,3.8,241,False,1.31,292
+54,Bengaluru,Chinese,1,3.5,68,False,1.31,470
+55,Mumbai,Fast Food,1,3.9,100,False,1.05,429
+56,Mumbai,Chinese,1,3.7,822,False,1.25,108
+57,Delhi,Fast Food,1,3.9,1482,True,1.82,54
+58,Bengaluru,North Indian,1,3.8,57,False,1.28,486
+59,Mumbai,Biryani,2,4.8,827,False,1.28,106
+60,Hyderabad,North Indian,3,4.3,206,False,1.24,316
+61,Pune,Chinese,1,4.1,136,False,1.09,378
+62,Delhi,Chinese,2,4.1,118,False,1.33,408
+63,Hyderabad,North Indian,2,4.6,938,False,1.24,94
+64,Bengaluru,Chinese,3,2.9,82,True,1.62,455
+65,Delhi,Chinese,1,3.5,610,False,1.01,151
+66,Bengaluru,South Indian,3,4.3,2069,True,1.56,41
+67,Mumbai,Desserts,1,3.3,59,False,1.04,483
+68,Pune,Chinese,2,4.6,127,True,1.65,395
+69,Delhi,Biryani,2,4.6,900,False,1.25,99
+70,Pune,Fast Food,1,3.7,189,True,2.0,331
+71,Hyderabad,Biryani,3,3.9,135,True,1.69,381
+72,Bengaluru,Chinese,1,3.9,247,False,1.49,287
+73,Chennai,Chinese,1,5.0,226,False,1.3,299
+74,Mumbai,North Indian,2,4.5,1835,False,1.4,45
+75,Delhi,Desserts,1,3.9,600,True,1.99,158
+76,Delhi,Other,2,3.8,1373,False,1.0,58
+77,Chennai,Biryani,3,4.7,321,False,1.11,246
+78,Delhi,North Indian,2,4.5,240,True,1.7,294
+79,Bengaluru,North Indian,1,4.1,141,False,1.45,370
+80,Chennai,South Indian,3,4.5,463,False,1.43,198
+81,Hyderabad,Fast Food,3,4.0,1161,True,1.61,71
+82,Pune,Biryani,2,3.2,136,False,1.4,378
+83,Hyderabad,Other,2,4.0,1079,True,1.69,80
+84,Pune,Chinese,3,3.4,606,True,1.49,156
+85,Delhi,Fast Food,1,3.3,163,True,1.34,355
+86,Chennai,North Indian,1,4.6,67,False,1.18,472
+87,Delhi,North Indian,1,4.0,400,True,1.71,214
+88,Hyderabad,South Indian,2,3.1,245,True,1.98,289
+89,Delhi,North Indian,3,4.1,50,True,1.71,499
+90,Delhi,Biryani,2,3.8,121,False,1.09,402
+91,Pune,Chinese,1,3.5,84,True,1.45,453
+92,Pune,Chinese,2,4.8,937,False,1.47,95
+93,Chennai,Chinese,1,3.8,607,True,1.56,154
+94,Pune,North Indian,3,2.8,248,False,1.07,285
+95,Chennai,North Indian,3,4.3,786,False,1.1,113
+96,Bengaluru,Desserts,3,3.6,318,True,1.77,247
+97,Bengaluru,North Indian,1,4.4,221,True,1.32,308
+98,Bengaluru,Biryani,1,4.2,459,False,1.2,201
+99,Hyderabad,South Indian,1,3.3,2565,False,1.32,36
+100,Delhi,North Indian,2,4.1,124,True,1.84,398
+101,Chennai,South Indian,1,3.3,87,False,1.15,449
+102,Chennai,South Indian,3,4.0,447,True,1.61,203
+103,Mumbai,Chinese,3,4.3,383,True,1.99,221
+104,Bengaluru,South Indian,2,4.2,854,False,1.26,102
+105,Bengaluru,North Indian,1,4.5,276,True,1.32,273
+106,Chennai,South Indian,3,3.9,64,False,1.16,475
+107,Delhi,North Indian,2,4.4,469,False,1.32,196
+108,Bengaluru,Fast Food,2,4.4,602,True,1.5,157
+109,Mumbai,Other,1,3.6,423,False,1.25,206
+110,Bengaluru,South Indian,1,3.2,547,False,1.39,170
+111,Pune,North Indian,1,4.2,3619,False,1.25,24
+112,Delhi,Biryani,2,4.3,1227,False,1.16,64
+113,Delhi,Biryani,1,4.1,463,False,1.45,198
+114,Bengaluru,North Indian,2,4.3,380,False,1.19,225
+115,Delhi,Chinese,3,4.3,130,False,1.49,390
+116,Chennai,Chinese,1,3.4,1791,True,1.73,47
+117,Chennai,Fast Food,1,4.8,133,False,1.09,384
+118,Chennai,Biryani,2,2.2,499,False,1.31,183
+119,Mumbai,North Indian,1,3.5,1195,False,1.07,68
+120,Delhi,North Indian,1,4.8,170,True,1.92,348
+121,Bengaluru,Desserts,1,4.6,77,False,1.09,461
+122,Hyderabad,Chinese,2,4.1,732,False,1.35,120
+123,Delhi,North Indian,2,4.4,633,False,1.39,142
+124,Bengaluru,Fast Food,1,3.3,942,True,1.48,92
+125,Hyderabad,Biryani,3,4.1,140,True,1.44,371
+126,Hyderabad,Biryani,1,3.5,95,False,1.11,436
+127,Pune,Desserts,2,4.8,17950,False,1.04,3
+128,Mumbai,Fast Food,1,4.2,217,True,1.5,312
+129,Pune,Chinese,3,3.9,317,True,1.48,248
+130,Chennai,Fast Food,1,4.6,191,False,1.45,330
+131,Chennai,Biryani,3,4.2,350,True,1.79,236
+132,Mumbai,Chinese,2,4.0,50,False,1.09,499
+133,Delhi,Fast Food,2,4.8,352,True,1.38,235
+134,Chennai,Desserts,1,3.8,123,True,1.99,399
+135,Chennai,Biryani,2,3.7,205,False,1.09,317
+136,Mumbai,Chinese,1,3.2,342,True,1.67,238
+137,Chennai,Other,3,3.6,96,True,1.8,435
+138,Delhi,North Indian,1,3.8,67,False,1.17,472
+139,Pune,Chinese,2,3.7,114,False,1.39,413
+140,Chennai,Fast Food,3,3.3,226,False,1.12,299
+141,Hyderabad,North Indian,3,4.3,56,False,1.08,487
+142,Chennai,Biryani,1,4.1,218,True,1.86,311
+143,Hyderabad,Biryani,1,3.9,108,True,1.74,418
+144,Pune,Fast Food,3,3.1,131,True,1.55,386
+145,Chennai,Biryani,1,3.3,1187,True,1.42,69
+146,Hyderabad,South Indian,2,3.8,1284,True,1.9,60
+147,Chennai,South Indian,1,3.0,399,False,1.49,216
+148,Mumbai,Chinese,3,3.8,2257,False,1.02,37
+149,Hyderabad,Chinese,2,4.3,268,False,1.16,278
+150,Chennai,South Indian,2,4.8,940,False,1.41,93
+151,Mumbai,South Indian,1,3.7,532,True,1.38,175
+152,Hyderabad,North Indian,2,3.5,824,True,1.41,107
+153,Delhi,Biryani,1,4.8,61,False,1.13,479
+154,Chennai,South Indian,3,3.8,137,False,1.16,376
+155,Hyderabad,North Indian,2,3.9,294,False,1.39,264
+156,Chennai,North Indian,1,4.1,314,False,1.14,250
+157,Bengaluru,Desserts,2,3.9,3227,True,1.46,27
+158,Pune,North Indian,1,3.5,166,True,1.55,353
+159,Hyderabad,Biryani,2,3.5,171,False,1.38,347
+160,Pune,North Indian,2,4.2,116,False,1.17,410
+161,Pune,Fast Food,1,3.8,143,False,1.16,367
+162,Chennai,Biryani,2,4.3,635,False,1.48,140
+163,Delhi,Fast Food,1,4.3,1803,True,1.64,46
+164,Mumbai,Chinese,3,4.7,509,False,1.43,181
+165,Chennai,Chinese,1,3.9,607,False,1.2,154
+166,Hyderabad,Biryani,1,3.1,2055,True,1.54,42
+167,Chennai,Desserts,2,3.7,324,False,1.14,242
+168,Mumbai,Desserts,2,2.8,220,False,1.35,309
+169,Hyderabad,Biryani,1,3.5,1549,False,1.21,51
+170,Pune,Chinese,1,4.1,4694,True,1.89,16
+171,Pune,Chinese,1,4.6,781,True,1.53,115
+172,Hyderabad,Biryani,3,3.6,178,False,1.04,341
+173,Delhi,Other,1,4.2,142,False,1.07,368
+174,Chennai,South Indian,1,3.4,419,False,1.04,208
+175,Delhi,North Indian,1,3.9,429,True,1.49,205
+176,Mumbai,South Indian,1,4.1,617,True,1.9,149
+177,Chennai,Chinese,1,4.2,201,False,1.15,321
+178,Bengaluru,South Indian,1,3.9,2225,True,1.95,39
+179,Delhi,North Indian,1,3.3,75,False,1.32,466
+180,Delhi,North Indian,3,4.4,1113,True,1.36,74
+181,Chennai,Biryani,1,3.2,681,True,1.8,129
+182,Delhi,Fast Food,1,4.1,970,False,1.38,88
+183,Hyderabad,North Indian,1,4.4,311,True,1.5,253
+184,Delhi,North Indian,2,3.7,554,True,1.3,168
+185,Bengaluru,Fast Food,1,3.6,310,False,1.42,254
+186,Chennai,South Indian,3,3.7,81,False,1.14,456
+187,Mumbai,Fast Food,2,4.7,170,True,1.93,348
+188,Mumbai,North Indian,1,5.0,524,False,1.0,176
+189,Mumbai,Fast Food,2,4.4,400,True,1.32,214
+190,Hyderabad,Biryani,1,4.7,3200,False,1.19,29
+191,Pune,Chinese,2,4.1,54,False,1.11,491
+192,Pune,North Indian,1,5.0,622,False,1.36,145
+193,Mumbai,North Indian,1,3.5,2921,True,1.41,30
+194,Bengaluru,Biryani,1,3.9,1317,False,1.12,59
+195,Hyderabad,South Indian,2,4.1,362,False,1.18,231
+196,Hyderabad,Biryani,3,3.3,146,True,1.7,365
+197,Delhi,Desserts,2,4.2,54,False,1.07,491
+198,Bengaluru,Fast Food,1,2.3,536,False,1.19,173
+199,Chennai,Biryani,1,5.0,2588,True,1.9,34
+200,Bengaluru,North Indian,2,4.3,463,False,1.03,198
+201,Chennai,North Indian,1,4.2,93,False,1.48,439
+202,Hyderabad,Biryani,3,3.9,81,True,1.91,456
+203,Hyderabad,Fast Food,1,3.9,946,False,1.07,91
+204,Mumbai,Fast Food,1,3.8,903,False,1.1,98
+205,Delhi,Biryani,1,3.5,93,False,1.12,439
+206,Bengaluru,Other,2,3.5,116,False,1.01,410
+207,Mumbai,North Indian,3,4.4,619,False,1.46,148
+208,Delhi,North Indian,1,4.4,643,True,1.86,139
+209,Mumbai,North Indian,2,3.4,10022,False,1.42,6
+210,Mumbai,North Indian,1,4.7,396,False,1.11,218
+211,Bengaluru,North Indian,2,3.8,763,False,1.48,116
+212,Chennai,North Indian,2,4.1,476,True,1.54,192
+213,Delhi,North Indian,1,3.7,574,False,1.07,165
+214,Hyderabad,Chinese,1,3.2,138,False,1.32,375
+215,Mumbai,Biryani,1,3.8,168,False,1.44,352
+216,Delhi,Chinese,2,3.7,204,True,1.57,318
+217,Chennai,South Indian,1,5.0,376,False,1.46,226
+218,Delhi,Chinese,1,3.7,374,False,1.01,227
+219,Bengaluru,North Indian,2,3.8,594,True,1.81,161
+220,Mumbai,South Indian,1,4.7,625,False,1.01,144
+221,Mumbai,Desserts,3,4.9,86,False,1.04,450
+222,Delhi,North Indian,3,3.9,796,False,1.21,111
+223,Delhi,Fast Food,3,3.8,782,True,1.51,114
+224,Mumbai,Chinese,2,4.1,494,True,1.52,187
+225,Mumbai,North Indian,3,4.1,22892,False,1.16,2
+226,Mumbai,Desserts,2,4.1,163,True,1.36,355
+227,Chennai,Fast Food,1,3.9,222,False,1.3,304
+228,Delhi,Chinese,2,4.2,675,False,1.33,131
+229,Chennai,South Indian,1,3.7,86,True,1.53,450
+230,Delhi,North Indian,1,4.6,193,False,1.06,326
+231,Bengaluru,North Indian,2,4.2,77,True,1.95,461
+232,Bengaluru,North Indian,1,4.0,68,True,1.56,470
+233,Hyderabad,Chinese,2,4.3,3907,True,1.7,21
+234,Hyderabad,South Indian,2,4.7,222,True,1.42,304
+235,Chennai,South Indian,3,3.4,175,True,1.63,342
+236,Hyderabad,South Indian,1,3.7,401,False,1.08,213
+237,Hyderabad,Desserts,2,2.5,107,False,1.05,420
+238,Pune,Chinese,1,3.2,148,False,1.06,364
+239,Mumbai,Chinese,1,4.2,922,False,1.05,96
+240,Hyderabad,Fast Food,2,4.3,109,False,1.04,416
+241,Delhi,Other,1,3.9,678,False,1.17,130
+242,Chennai,Biryani,1,4.6,197,True,1.69,323
+243,Delhi,Biryani,1,4.1,193,False,1.22,326
+244,Bengaluru,Desserts,2,4.2,519,False,1.18,177
+245,Delhi,North Indian,2,4.7,467,True,1.32,197
+246,Hyderabad,Chinese,1,3.8,86,False,1.29,450
+247,Mumbai,Biryani,2,3.8,1108,False,1.3,75
+248,Delhi,Chinese,1,3.4,128,False,1.43,394
+249,Hyderabad,North Indian,1,3.9,1684,False,1.06,48
+250,Chennai,South Indian,2,2.6,90,False,1.26,444
+251,Mumbai,South Indian,3,3.8,499,False,1.09,183
+252,Pune,Chinese,2,3.5,132,False,1.49,385
+253,Bengaluru,South Indian,3,4.1,13866,False,1.39,4
+254,Pune,Chinese,1,4.4,361,False,1.49,232
+255,Chennai,South Indian,1,4.1,61,True,1.53,479
+256,Pune,North Indian,2,3.8,155,True,1.53,359
+257,Chennai,Biryani,2,4.3,56,False,1.43,487
+258,Pune,Fast Food,2,4.2,1520,False,1.05,53
+259,Chennai,North Indian,1,4.1,1202,False,1.27,67
+260,Pune,Fast Food,1,4.3,798,False,1.22,110
+261,Mumbai,North Indian,2,4.7,109,False,1.28,416
+262,Chennai,South Indian,1,3.9,130,False,1.19,390
+263,Hyderabad,South Indian,1,4.1,69,False,1.08,469
+264,Hyderabad,Biryani,1,3.9,169,False,1.4,350
+265,Delhi,Desserts,2,5.0,76,False,1.02,464
+266,Mumbai,Fast Food,3,3.8,1032,True,1.48,83
+267,Delhi,Biryani,1,4.0,539,True,1.37,171
+268,Delhi,North Indian,1,3.6,282,True,1.31,271
+269,Bengaluru,North Indian,3,4.2,58,True,1.85,485
+270,Chennai,South Indian,1,4.0,805,False,1.17,109
+271,Pune,Chinese,1,3.5,2613,False,1.18,33
+272,Bengaluru,South Indian,2,3.3,358,False,1.28,233
+273,Mumbai,North Indian,2,3.6,293,False,1.46,265
+274,Chennai,South Indian,3,4.5,88,False,1.11,448
+275,Bengaluru,South Indian,2,3.8,60,False,1.14,482
+276,Pune,Chinese,2,3.8,151,False,1.06,363
+277,Bengaluru,South Indian,2,3.2,1099,False,1.19,78
+278,Pune,Other,2,3.8,271,True,1.61,276
+279,Bengaluru,Other,1,4.4,184,False,1.11,334
+280,Delhi,South Indian,1,5.0,594,True,1.91,161
+281,Delhi,South Indian,2,4.2,222,True,1.91,304
+282,Hyderabad,Biryani,1,4.0,668,False,1.23,134
+283,Delhi,South Indian,2,3.0,669,False,1.03,133
+284,Hyderabad,North Indian,1,3.5,3212,True,1.97,28
+285,Pune,Biryani,1,4.0,95,True,1.39,436
+286,Mumbai,Fast Food,2,3.1,517,False,1.09,178
+287,Delhi,Fast Food,1,3.6,155,False,1.2,359
+288,Hyderabad,Chinese,1,3.8,600,False,1.38,158
+289,Pune,Chinese,2,4.2,2587,True,1.7,35
+290,Chennai,Biryani,3,3.4,365,False,1.44,229
+291,Bengaluru,South Indian,3,4.2,734,False,1.19,119
+292,Hyderabad,North Indian,2,4.6,752,True,1.38,117
+293,Mumbai,North Indian,2,3.6,101,True,1.74,427
+294,Hyderabad,Biryani,2,3.0,253,True,1.36,283
+295,Pune,Fast Food,1,4.4,673,False,1.43,132
+296,Hyderabad,North Indian,2,3.9,832,False,1.5,105
+297,Pune,South Indian,2,3.9,309,False,1.5,257
+298,Delhi,North Indian,2,3.9,216,True,1.9,313
+299,Bengaluru,North Indian,2,3.7,534,False,1.24,174
+300,Pune,Fast Food,2,3.4,55,False,1.36,490
+301,Bengaluru,Fast Food,1,4.0,100,False,1.05,429
+302,Pune,Fast Food,2,3.5,996,False,1.22,86
+303,Delhi,Fast Food,1,3.7,714,False,1.44,123
+304,Pune,South Indian,3,3.6,483,False,1.22,188
+305,Mumbai,North Indian,1,3.7,548,False,1.13,169
+306,Bengaluru,Biryani,3,4.1,4204,True,1.51,19
+307,Mumbai,Fast Food,2,4.0,594,False,1.36,161
+308,Bengaluru,Chinese,2,4.1,248,False,1.12,285
+309,Chennai,South Indian,2,4.2,102,False,1.18,425
+310,Delhi,Fast Food,1,3.1,3706,False,1.19,23
+311,Delhi,Chinese,1,5.0,1259,False,1.4,62
+312,Mumbai,Chinese,1,3.9,77,False,1.12,461
+313,Pune,Biryani,2,4.2,291,True,1.65,266
+314,Pune,Chinese,1,3.8,477,False,1.1,190
+315,Mumbai,Other,1,4.6,131,False,1.37,386
+316,Mumbai,Fast Food,1,4.6,323,False,1.18,244
+317,Chennai,South Indian,1,4.3,110,False,1.19,415
+318,Delhi,South Indian,1,3.7,421,True,1.36,207
+319,Hyderabad,Biryani,3,3.9,179,False,1.18,338
+320,Mumbai,Biryani,2,3.8,258,True,1.67,280
+321,Delhi,North Indian,3,4.1,369,False,1.09,228
+322,Hyderabad,Fast Food,1,4.4,408,True,1.69,211
+323,Mumbai,North Indian,3,4.5,716,False,1.47,122
+324,Pune,Fast Food,2,3.7,183,True,1.3,336
+325,Hyderabad,Biryani,3,4.5,197,False,1.24,323
+326,Bengaluru,Desserts,1,3.6,121,True,1.68,402
+327,Chennai,North Indian,2,4.5,563,False,1.4,167
+328,Chennai,Biryani,1,3.9,581,False,1.14,164
+329,Chennai,South Indian,1,4.6,140,False,1.4,371
+330,Hyderabad,South Indian,1,3.4,609,False,1.12,152
+331,Delhi,South Indian,1,3.5,142,False,1.09,368
+332,Bengaluru,North Indian,2,4.0,131,False,1.49,386
+333,Hyderabad,North Indian,2,4.4,654,True,1.46,136
+334,Chennai,South Indian,1,4.0,54,False,1.21,491
+335,Delhi,Biryani,1,3.8,513,False,1.19,180
+336,Delhi,Fast Food,1,4.4,341,True,1.41,239
+337,Bengaluru,Biryani,2,5.0,413,False,1.36,210
+338,Mumbai,North Indian,3,4.2,172,False,1.16,345
+339,Delhi,Fast Food,2,4.1,396,False,1.23,218
+340,Mumbai,North Indian,2,4.1,537,True,1.6,172
+341,Mumbai,Other,2,4.0,450,True,1.58,202
+342,Mumbai,North Indian,2,4.0,347,False,1.42,237
+343,Chennai,South Indian,3,4.2,64,False,1.47,475
+344,Mumbai,Chinese,1,3.9,955,False,1.3,90
+345,Pune,Chinese,3,3.8,1970,False,1.39,43
+346,Mumbai,Other,1,3.2,1090,False,1.47,79
+347,Hyderabad,Chinese,3,4.4,569,True,1.6,166
+348,Hyderabad,Desserts,2,4.4,1269,False,1.24,61
+349,Bengaluru,South Indian,2,4.8,214,False,1.05,315
+350,Pune,Other,2,4.3,253,False,1.48,283
+351,Mumbai,South Indian,2,3.4,841,False,1.47,103
+352,Pune,Chinese,2,4.3,497,False,1.12,185
+353,Delhi,Chinese,3,3.8,971,True,1.99,87
+354,Chennai,South Indian,1,3.8,471,False,1.3,195
+355,Mumbai,North Indian,1,3.5,54,False,1.42,491
+356,Chennai,South Indian,2,3.8,595,False,1.26,160
+357,Mumbai,Desserts,1,3.9,155,True,1.47,359
+358,Mumbai,North Indian,1,4.1,381,False,1.09,223
+359,Mumbai,North Indian,3,4.3,84,False,1.01,453
+360,Hyderabad,South Indian,1,4.2,705,False,1.07,124
+361,Chennai,South Indian,1,4.0,13859,False,1.46,5
+362,Delhi,North Indian,1,3.1,1539,False,1.13,52
+363,Bengaluru,South Indian,1,3.1,316,False,1.13,249
+364,Delhi,North Indian,1,4.4,63,True,1.71,478
+365,Mumbai,Desserts,2,3.7,5507,False,1.15,11
+366,Chennai,North Indian,2,3.7,46316,True,1.31,1
+367,Hyderabad,South Indian,1,4.4,121,False,1.11,402
+368,Hyderabad,North Indian,1,3.8,259,True,1.38,279
+369,Delhi,North Indian,3,4.0,204,False,1.23,318
+370,Mumbai,North Indian,1,4.0,112,False,1.14,414
+371,Hyderabad,Fast Food,1,2.8,4706,False,1.03,15
+372,Mumbai,Fast Food,1,4.2,2109,False,1.05,40
+373,Hyderabad,Chinese,1,3.7,89,False,1.34,446
+374,Delhi,Biryani,3,3.4,256,False,1.23,281
+375,Bengaluru,South Indian,2,4.4,245,True,1.42,289
+376,Chennai,Chinese,1,4.4,1218,False,1.46,65
+377,Hyderabad,North Indian,2,3.7,1026,False,1.21,84
+378,Bengaluru,Chinese,2,4.1,312,False,1.23,252
+379,Bengaluru,Chinese,1,4.3,4780,False,1.2,14
+380,Chennai,South Indian,2,5.0,116,True,1.53,410
+381,Mumbai,Biryani,2,3.5,75,True,1.9,466
+382,Bengaluru,North Indian,1,3.2,646,False,1.02,138
+383,Delhi,North Indian,1,3.9,310,False,1.17,254
+384,Hyderabad,Chinese,1,4.3,169,False,1.32,350
+385,Chennai,Other,3,3.2,322,True,1.34,245
+386,Mumbai,North Indian,3,4.7,59,False,1.03,483
+387,Chennai,South Indian,3,3.9,7872,False,1.43,9
+388,Hyderabad,North Indian,2,3.9,241,False,1.26,292
+389,Chennai,North Indian,1,4.0,202,False,1.15,320
+390,Delhi,Desserts,3,3.5,256,True,1.7,281
+391,Hyderabad,South Indian,2,3.4,306,False,1.08,260
+392,Mumbai,Chinese,1,3.3,273,True,1.87,274
+393,Delhi,Biryani,1,4.2,67,True,1.48,472
+394,Hyderabad,South Indian,2,4.7,100,True,1.62,429
+395,Bengaluru,South Indian,2,3.4,1961,False,1.19,44
+396,Pune,Desserts,2,4.8,136,False,1.26,378
+397,Hyderabad,North Indian,1,4.2,134,False,1.37,383
+398,Pune,Chinese,2,3.7,193,False,1.21,326
+399,Hyderabad,South Indian,3,3.9,288,False,1.47,267
+400,Chennai,Chinese,1,4.1,155,False,1.34,359
+401,Pune,South Indian,2,4.1,284,False,1.17,270
+402,Mumbai,Fast Food,2,4.1,225,True,1.91,302
+403,Delhi,North Indian,2,3.2,90,False,1.46,444
+404,Hyderabad,Biryani,2,3.8,285,False,1.27,269
+405,Mumbai,Other,2,2.7,97,False,1.15,434
+406,Bengaluru,Fast Food,1,4.7,232,False,1.47,297
+407,Bengaluru,South Indian,2,4.5,64,False,1.21,475
+408,Delhi,Fast Food,2,4.2,222,False,1.23,304
+409,Delhi,North Indian,2,3.7,419,True,1.5,208
+410,Hyderabad,Biryani,2,4.3,196,False,1.44,325
+411,Pune,Chinese,2,4.5,130,False,1.45,390
+412,Pune,Biryani,2,3.7,313,False,1.44,251
+413,Bengaluru,Chinese,1,3.9,108,False,1.42,418
+414,Bengaluru,Fast Food,3,4.3,1060,False,1.13,82
+415,Chennai,North Indian,1,3.7,184,False,1.05,334
+416,Hyderabad,South Indian,1,3.5,95,False,1.01,436
+417,Hyderabad,North Indian,1,4.9,181,False,1.38,337
+418,Chennai,Fast Food,1,4.1,193,True,1.41,326
+419,Chennai,Fast Food,1,4.0,336,False,1.17,240
+420,Hyderabad,North Indian,3,5.0,51,True,1.39,498
+421,Delhi,Biryani,1,4.0,76,False,1.0,464
+422,Pune,Other,2,4.1,158,True,1.71,358
+423,Bengaluru,Chinese,1,3.1,173,True,1.6,344
+424,Mumbai,Biryani,1,3.5,129,True,1.85,393
+425,Pune,North Indian,1,4.1,244,True,1.85,291
+426,Bengaluru,North Indian,2,3.0,405,False,1.08,212
+427,Chennai,Biryani,2,3.7,246,False,1.08,288
+428,Delhi,Chinese,3,4.2,477,True,1.93,190
+429,Delhi,North Indian,1,3.6,271,False,1.1,276
+430,Chennai,Desserts,1,3.7,693,True,1.32,125
+431,Chennai,South Indian,1,4.4,656,False,1.48,135
+432,Hyderabad,South Indian,1,4.3,80,True,1.69,459
+433,Chennai,North Indian,2,3.8,140,False,1.18,371
+434,Mumbai,North Indian,2,4.6,54,False,1.18,491
+435,Hyderabad,Fast Food,1,4.1,61,False,1.47,479
+436,Chennai,South Indian,3,4.2,1243,True,1.52,63
+437,Mumbai,Fast Food,2,4.7,5438,True,1.81,12
+438,Chennai,North Indian,3,4.1,91,True,1.64,443
+439,Delhi,South Indian,1,3.7,175,False,1.22,342
+440,Pune,North Indian,1,4.6,52,False,1.48,496
+441,Chennai,Biryani,1,4.1,4178,False,1.44,20
+442,Mumbai,Other,2,2.9,179,False,1.2,338
+443,Delhi,North Indian,1,3.8,121,False,1.14,402
+444,Pune,North Indian,2,4.5,228,True,1.39,298
+445,Bengaluru,Chinese,3,4.5,1106,False,1.32,77
+446,Bengaluru,Fast Food,1,5.0,102,False,1.09,425
+447,Delhi,Desserts,2,4.1,4819,False,1.49,13
+448,Bengaluru,South Indian,1,4.2,126,False,1.13,396
+449,Hyderabad,Chinese,2,4.4,1207,False,1.05,66
+450,Mumbai,Desserts,2,3.6,735,False,1.12,118
+451,Chennai,South Indian,2,4.7,474,True,1.96,194
+452,Delhi,North Indian,1,2.6,2231,False,1.2,38
+453,Pune,Fast Food,3,3.4,101,True,1.76,427
+454,Hyderabad,South Indian,3,4.8,872,True,1.95,101
+455,Chennai,South Indian,1,4.0,1441,True,1.57,57
+456,Chennai,North Indian,3,3.8,121,True,1.72,402
+457,Pune,Fast Food,2,5.0,185,False,1.22,333
+458,Mumbai,South Indian,2,4.3,1141,False,1.06,72
+459,Bengaluru,Desserts,1,4.1,892,False,1.41,100
+460,Hyderabad,North Indian,2,4.3,117,False,1.42,409
+461,Delhi,Desserts,2,3.5,840,True,1.31,104
+462,Pune,Fast Food,1,3.8,650,True,1.71,137
+463,Mumbai,South Indian,3,3.3,364,True,1.63,230
+464,Mumbai,Fast Food,2,4.5,1609,False,1.29,50
+465,Bengaluru,Desserts,1,3.9,693,True,1.84,125
+466,Mumbai,Fast Food,2,3.9,1019,True,1.7,85
+467,Bengaluru,North Indian,2,4.3,1670,False,1.43,49
+468,Delhi,Chinese,1,3.8,172,False,1.33,345
+469,Delhi,Biryani,1,3.6,475,True,1.95,193
+470,Pune,North Indian,1,4.0,399,False,1.36,216
+471,Pune,Other,1,4.2,444,False,1.02,204
+472,Bengaluru,North Indian,1,5.0,137,True,1.59,376
+473,Chennai,South Indian,2,3.3,1481,False,1.21,55
+474,Pune,Chinese,1,3.8,131,False,1.35,386
+475,Chennai,Biryani,1,4.5,324,True,1.35,242
+476,Pune,Fast Food,2,4.4,308,True,1.6,258
+477,Pune,North Indian,1,4.0,92,False,1.12,441
+478,Chennai,South Indian,1,3.9,1107,False,1.18,76
+479,Delhi,Chinese,1,4.2,103,False,1.1,423
+480,Delhi,North Indian,1,4.0,135,False,1.23,381
+481,Hyderabad,South Indian,3,3.3,689,True,1.73,127
+482,Chennai,South Indian,2,3.9,495,False,1.12,186
+483,Hyderabad,South Indian,1,4.2,687,False,1.41,128
+484,Mumbai,Fast Food,3,3.9,106,False,1.46,422
+485,Delhi,South Indian,1,3.9,282,True,1.65,271
+486,Chennai,Desserts,1,3.8,225,True,1.61,302
+487,Mumbai,Biryani,2,4.5,92,False,1.19,441
+488,Bengaluru,South Indian,2,4.1,1163,False,1.19,70
+489,Hyderabad,Desserts,2,4.1,3811,False,1.1,22
+490,Delhi,North Indian,2,3.8,353,False,1.38,234
+491,Delhi,Chinese,1,4.5,904,True,1.51,97
+492,Bengaluru,South Indian,1,3.4,8212,False,1.32,8
+493,Hyderabad,South Indian,2,3.5,119,True,1.93,407
+494,Chennai,Biryani,1,4.5,382,False,1.28,222
+495,Mumbai,South Indian,1,3.8,2754,False,1.38,31
+496,Bengaluru,Fast Food,1,4.0,78,False,1.41,460
+497,Hyderabad,Biryani,1,4.8,482,False,1.32,189
+498,Hyderabad,Desserts,1,4.4,273,False,1.28,274
+499,Hyderabad,South Indian,1,4.0,509,False,1.1,181
+500,Bengaluru,South Indian,1,3.3,517,False,1.44,178
