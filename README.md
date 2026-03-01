@@ -65,7 +65,7 @@ zomathon-csao/
 
 ---
 
-##🚀 How to Run
+## 🚀 How to Run
 
 1️⃣ Generate Dataset
 
