@@ -97,7 +97,11 @@ All modeling decisions are structured for scalability and production-readiness.
 👥 Team
 
 Zomathon CSAO Team
+
 -Fayaz Ahmed T
+
 -Dhinesshvar V
+
 -Apoorva GVL
+
 Hackathon Submission 2026
