@@ -47,11 +47,22 @@ Our solution includes:
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
 
-csao_data/ # Generated synthetic dataset
-csao_dataset_generator.py # Synthetic data generation logic
-csao_model_baseline.ipynb # Full modeling pipeline
-README.md
+
+zomathon-csao/
+│
+├── csao_data/
+│   ├── cart_events.csv
+│   ├── menu_items.csv
+│   ├── model_dataset.csv
+│   ├── restaurants.csv
+│   ├── sessions.csv
+│   └── users.csv
+│
+├── csao_dataset_generator.py
+├── csao_model_baseline.ipynb
+└── README.md
 
 
 ---
