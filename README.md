@@ -65,9 +65,9 @@ zomathon-csao/
 
 ---
 
-## 🚀 How to Run
+🚀 How to Run
 
-### 1️⃣ Generate Dataset
+1️⃣ Generate Dataset
 
 python csao_dataset_generator.py
 
