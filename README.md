@@ -47,6 +47,7 @@ Our solution includes:
 
 ## 📁 Project Structure
 
+```
 zomathon-csao/
 │
 ├── csao_data/
@@ -60,11 +61,11 @@ zomathon-csao/
 ├── csao_dataset_generator.py
 ├── csao_model_baseline.ipynb
 └── README.md
-
+```
 
 ---
 
-🚀 How to Run
+##🚀 How to Run
 
 1️⃣ Generate Dataset
 
