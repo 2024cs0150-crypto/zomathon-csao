@@ -47,7 +47,6 @@ Our solution includes:
 
 ## 📁 Project Structure
 
-
 zomathon-csao/
 │
 ├── csao_data/
